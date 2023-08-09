@@ -1,1 +1,1 @@
-# spotify-rec
+# recipes
