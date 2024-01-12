@@ -3,9 +3,8 @@ import { defaultBoard } from '../Words'
 import Letter from './Letter';
 
 function Board() {
-    const [board, setBoard] = useState(defaultBoard);
     return  (
-    <div className = "Board"> 
+    <div className = "board"> 
         <div className = "row">
             <Letter letterPos = {0} attemptVal = {0} />
             <Letter letterPos = {1} attemptVal = {0} />
