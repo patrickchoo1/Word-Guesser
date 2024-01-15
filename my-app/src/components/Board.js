@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { defaultBoard } from '../Words'
 import Letter from './Letter';
 
 function Board() {

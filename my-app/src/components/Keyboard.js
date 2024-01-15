@@ -7,7 +7,7 @@ function Keyboard() {
   const row3 = ["Z", "X", "C", "V", "B", "N", "M"];
   return (
     <div className= "keyboard">
-      {/* <div className= "line1">
+      <div className= "line1">
         {row1.map((key) => {
           return <Key keyValue= {key}/>;
         })}
@@ -18,10 +18,12 @@ function Keyboard() {
         })}
       </div>
       <div className= "line3">
+        <Key keyValue = "ENTER" bigKey></Key>
       {row3.map((key) => {
           return <Key keyValue= {key}/>;
         })}
-      </div> */}
+        <Key keyValue = "DELETE" bigKey></Key>
+      </div>
     </div>
 
   )

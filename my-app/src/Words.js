@@ -1,7 +1,7 @@
 import { WORDS } from "./wordle-list";
 
 export const defaultBoard = [
-["W", "O", "R", "D", "S"], 
+["", "", "", "", ""], 
 ["", "", "", "", ""], 
 ["", "", "", "", ""], 
 ["", "", "", "", ""], 
